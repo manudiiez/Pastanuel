@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ginzo</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__container">
+            <h1>Pastanuel</h1>
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/menu.html">Menu</a></li>
+                <li><a href="./pages/about.html">Our story</a></li>
+                <li><a href="./pages/reviews.html">Reviews</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="inicio">
+        <section class="inicio__slider">
+            <div class="inicio__slider__container">
+                <i class="fa-solid fa-angle-left inicio__slider__arrow" id="before"></i>
+
+                <div class="inicio__slider__body inicio__slider__body--show slider__1" data-id="1">
+                    <div class="inicio__slider__fondo"></div>
+                    <div class="inicio__slider__texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                        
+                    </div>
+                    
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="inicio__slider__body slider__2" data-id="2">
+                    <div class="inicio__slider__fondo"></div>
+                    <div class="inicio__slider__texts">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                    </ul>
+                </div>
+
+                <div class="inicio__slider__body slider__3" data-id="3">
+                    <div class="inicio__slider__fondo"></div>
+
+                    <div class="inicio__slider__texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                    </ul> 
+                </div>
+
+                <i class="fa-solid fa-angle-right inicio__slider__arrow" id="next"></i>
+            </div>
+        </section>
+
+        <section class="inicio__memories">
+            <div>
+                <h2 class="inicio__memories__title">Memories made in food</h2>
+                <p class="inicio__memories__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dicta consectetur dolores consequatur blanditiis ut neque, dignissimos quod laboriosam, similique voluptatum itaque repellat facere. Est ducimus quaerat velit enim incidunt.</p>
+                <button class="inicio__memories__button">Learn more</button>
+            </div>
+
+            <img src="./img/restaurant-1837150_640.jpg" alt="" class="inicio__memories__img">
+        </section>
+
+        <section class="inicio__populardishes">
+            <h2>Popular dishes</h2>
+            <div class="inicio__populardishes__container">
+                <i class="fa-solid fa-angle-left inicio__populardishes__arrow" id="beforedish"></i>
+                <div class="inicio__populardishes__group inicio__populardishes__group--show" data-id="1">
+                    <div class="inicio__populardishes__body inicio__populardishes__body--show">
+                        <img class="inicio__populardishes__img" src="./img/burger-3962996_640.jpg" alt="">
+                        <div class="inicio__populardishes__text">
+                            <h3>Burguer casera</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis.</p>
+                            <p class="inicio__populardishes__price">800$</p>
+                        </div>
+                    </div>
+    
+                    <div class="inicio__populardishes__body inicio__populardishes__body--show">
+                        <img class="inicio__populardishes__img" src="./img/hot-dog-5337929_640.jpg" alt="">
+                        <div class="inicio__populardishes__text">
+                            <h3>Hot dog</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi? Lorem ipsum dolor sit amet.</p>
+                            <p class="inicio__populardishes__price">800$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inicio__populardishes__group" data-id="2">
+                    <div class="inicio__populardishes__body">
+                        <img class="inicio__populardishes__img" src="./img/meat-4813261_640.jpg" alt="">
+                        <div class="inicio__populardishes__text">
+                            <h3>Carne asada</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi?</p>
+                            <p class="inicio__populardishes__price">800$</p>
+                        </div>
+                    </div>
+    
+                    <div class="inicio__populardishes__body">
+                        <img class="inicio__populardishes__img" src="./img/tacos-1613795_640.jpg" alt="">
+                        <div class="inicio__populardishes__text">
+                            <h3>Tacos a la parrilla</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi?</p>
+                            <p class="inicio__populardishes__price">800$</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <i class="fa-solid fa-angle-right inicio__populardishes__arrow" id="nextdish"></i>
+
+            </div>
+        
+            <a href="./pages/menu.html"><button class="inicio__populardishes__button">See menu</button></a>
+
+        </section>
+
+        <section class="inicio__info">
+            <div class="inicio__info__body">
+                <img class="inicio__info__img" src="./img/familia.jpg" alt="">
+                <div class="inicio__info__text">
+                    <h2>Great food for the whole family</h2>
+                    <p>Some of the best memories revolve around good food and family - that's why we welcome all of your loved ones, including children. We have dedicated family seating section towards the back of the restaurant. </p>
+                </div>
+            </div>
+            
+            <div class="inicio__info__body">
+                <img class="inicio__info__img" src="./img/chef-3975835_640.jpg" alt="">
+                <div class="inicio__info__text">
+                    <h2>We are here to lighten up your evening</h2>
+                    <p>All of our waiters have worked in our kitchen, meaning that they know the menu inside out and can help you, whether you need to check for allergens or need a hand for picking the right kind of wine.</p>
+                </div>
+            </div>
+
+            <div class="inicio__info__body">
+                <img class="inicio__info__img" src="./img/dog-1194087_640.jpg" alt="">
+                <div class="inicio__info__text">
+                    <h2>We welcome your animal friends</h2>
+                    <p>Our restaurant is pet-friendly, meaning that you can bring your furry friends with you. We ask for calm and collected behavior from all of our animal customers. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__body">
+                <h4 class="footer__title">Pastanuel</h4>
+                <ul>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                </ul>
+            </div>
+            <div class="footer__body">
+                <h5>Links</h5>
+                <a href="#">Menu</a>
+                <a href="#">Allergenes</a>
+            </div>
+            <div class="footer__body">
+                <h5>Hours</h5>
+                <p>Monday - Sunday</p>
+                <p>10am - 10pm</p>
+            </div>
+            <div class="footer__body">
+                <h5>Location</h5>
+                <p>1420 Lorem ipsum <br>dolor sit amet.</p>
+            </div>
+            <div class="footer__body">
+                <h5>Contact</h5>
+                <p>2615398384</p>
+                <p>manudiiez123@gmail.com</p>
+            </div>
+        </div>
+        <p class=footer__editor>manudiiez web design</p>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a6528d3960.js" crossorigin="anonymous"></script>
+    <script src="./js/slider.js"></script>
+
+    <script type="text/javascript">
+        window-addEventListener('scroll', function(){
+            let header = document.querySelector('header')
+            header.classList.toggle('abajo', window.scrollY>0)
+        })
+    </script>
+</body>
+</html>
